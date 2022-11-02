@@ -7,7 +7,7 @@ public class Student {
 
     private long id;
     private String name;
-    private ArrayList<Long> grades;
+    private ArrayList<Long> grades = new ArrayList<>();
 
     public void setId(long id) {
         this.id = id;
